@@ -67,9 +67,7 @@ main video:hover{
 }
 footer{
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    
     
 }
 footer p{
@@ -91,9 +89,24 @@ nav ul{
     justify-content: flex-end;   
 }
 
+
 nav a{
     text-decoration: none;
-    color: #f8f5f5;
+    color: #f6f5f8;
+
+    filter: 
+     drop-shadow(0 0 3px rgb(176, 133, 40))
+    drop-shadow(0 0 5px rgb(168, 128, 43))
+    drop-shadow(0 0 7px rgb(165, 126, 49));;
+    
+}
+
+
+
+
+nav a svg{
+    font-size: 20px;
+    
 }
 
 .cards{
@@ -103,6 +116,10 @@ nav a{
     gap: 20px;
     
 }
+
+
+
+
 /* Televisão 4k e monitores grandes */
 @media (max-width: 2560px){
     body{
